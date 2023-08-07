@@ -1,5 +1,5 @@
-# Instagram Reels Downloader Script in PHP and Python
-Instagram Reels Downloader Scripts that allow you to download Instagram reels onto your computer/phone easily
+# Instagram Reels Downloader PHP Script (Python script as a bonus)
+Instagram Reels Downloader Script that allow you to download Instagram reels onto your computer/phone easily
 
 # About the PHP version
 Due to CORS policy, you cannot directly show Instagram images/video as embedded links but if you plan to download them locally and display them, that will work.
