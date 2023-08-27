@@ -3,7 +3,7 @@ import re
 
 
 def getVideoLink(reel_link):
-    reel_id = re.findall(r'/reel/([\w]+)/', reel_link)[0]
+    reel_id = re.findall(r'reel\/(.*?)\/', reel_link)[0]
     link = "https://www.instagram.com/graphql/query/"
     headers = {
         'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36'
